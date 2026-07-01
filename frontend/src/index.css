@@ -1,0 +1,26 @@
+:root {
+  --sans: 'Inter', 'Segoe UI', system-ui, Roboto, sans-serif;
+  font-family: var(--sans);
+  color: #0f172a;
+  background: #f8fafc;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}

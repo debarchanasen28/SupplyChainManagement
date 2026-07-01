@@ -1,0 +1,109 @@
+{
+  "properties": [
+    {
+      "name": "lifecycle.confirmed-to-processing-seconds",
+      "type": "java.lang.Long",
+      "description": "Seconds before CONFIRMED transitions to PROCESSING."
+    },
+    {
+      "name": "lifecycle.processing-to-transit-seconds",
+      "type": "java.lang.Long",
+      "description": "Seconds before PROCESSING transitions to IN_TRANSIT."
+    },
+    {
+      "name": "lifecycle.transit-to-delivered-seconds",
+      "type": "java.lang.Long",
+      "description": "Seconds before IN_TRANSIT transitions to DELIVERED."
+    },
+    {
+      "name": "app.jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT signing secret."
+    },
+    {
+      "name": "app.jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "JWT expiration in milliseconds."
+    },
+    {
+      "name": "cpi.base-url",
+      "type": "java.lang.String",
+      "description": "Base URL of the SAP CPI tenant (iFlow host)."
+    },
+    {
+      "name": "cpi.po-outbound-path",
+      "type": "java.lang.String",
+      "description": "Path of the iFlow 1 PO-outbound HTTPS sender endpoint."
+    },
+    {
+      "name": "cpi.token-url",
+      "type": "java.lang.String",
+      "description": "OAuth2 token URL for the CPI client-credentials flow."
+    },
+    {
+      "name": "cpi.client-id",
+      "type": "java.lang.String",
+      "description": "OAuth2 client id for the CPI service key."
+    },
+    {
+      "name": "cpi.client-secret",
+      "type": "java.lang.String",
+      "description": "OAuth2 client secret for the CPI service key."
+    },
+    {
+      "name": "cpi.inbound-secret",
+      "type": "java.lang.String",
+      "description": "Shared secret expected in the X-CPI-Secret header on inbound CPI calls."
+    },
+    {
+      "name": "cpi.connect-timeout-ms",
+      "type": "java.lang.Integer",
+      "description": "Outbound CPI connect timeout in milliseconds."
+    },
+    {
+      "name": "cpi.read-timeout-ms",
+      "type": "java.lang.Integer",
+      "description": "Outbound CPI read timeout in milliseconds."
+    },
+    {
+      "name": "cpi.max-retries",
+      "type": "java.lang.Integer",
+      "description": "Max retry attempts for transient outbound CPI failures."
+    },
+    {
+      "name": "cpi.retry-backoff-ms",
+      "type": "java.lang.Long",
+      "description": "Base backoff in milliseconds between outbound CPI retries."
+    },
+    {
+      "name": "cpi.max-open-pos",
+      "type": "java.lang.Long",
+      "description": "Maximum number of concurrently-open (RECEIVED) inbound POs."
+    },
+    {
+      "name": "simulator.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether the System 2 simulator starts running on boot."
+    },
+    {
+      "name": "simulator.interval-ms",
+      "type": "java.lang.Long",
+      "description": "Simulator tick interval in milliseconds."
+    },
+    {
+      "name": "simulator.initial-delay-ms",
+      "type": "java.lang.Long",
+      "description": "Delay before the simulator's first tick after startup (ms)."
+    },
+    {
+      "name": "simulator.max-open-pos",
+      "type": "java.lang.Long",
+      "description": "Max open POs the simulator lets pile up on System 1's vendor queue."
+    },
+    {
+      "name": "simulator.reject-rate",
+      "type": "java.lang.Double",
+      "description": "Fraction of System 1 procurement POs the simulated S2 vendor rejects (0.0-1.0)."
+    }
+  ]
+}

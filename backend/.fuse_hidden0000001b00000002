@@ -1,0 +1,7 @@
+MONGODB_URI=mongodb+srv://debarchanasen28_db_user:0bFYCM3poXDCanoI@mycluster.bklsuwe.mongodb.net/supplychain_db?appName=MyCluster
+APP_JWT_SECRET=9b3cb3ff01e27dd1a2a14437f73010fe5f2d80d9e7633d676adffad2cb49174e
+
+CPI_BASE_URL=https://3c16aefatrial.it-cpitrial03-rt.cfapps.ap21.hana.ondemand.com
+CPI_TOKEN_URL=https://3c16aefatrial.authentication.ap21.hana.ondemand.com/oauth/token
+CPI_CLIENT_ID=sb-b1dd7452-fced-4b20-9ad5-543cff94cda1!b126115|it-rt-3c16aefatrial!b196
+CPI_CLIENT_SECRET=ccca82dd-3a4b-4a59-807d-b33e2a9735fb$fFHAOpJR3aAHfNnxznOrAC0YY2w9Dr1Bm0BTKsUVAbI=CPI_INBOUND_SECRET=b6a8225ac3059aeb15aa5e25f3f4bc051341ca1151eac317

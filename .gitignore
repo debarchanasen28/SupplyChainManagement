@@ -1,0 +1,22 @@
+# --- Large media: too big for a normal git push (GitHub hard-blocks >100MB files) ---
+# Host the demo video separately (e.g. a GitHub Release asset, YouTube unlisted, or
+# Google Drive) and link it from the README instead of committing it here.
+*.mov
+*.mp4
+
+# --- OS junk ---
+.DS_Store
+**/.DS_Store
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# --- Backend (safety net; backend/.gitignore already covers these under backend/) ---
+target/
+*.env
+!.env.example
+
+# --- Frontend (safety net; frontend/.gitignore already covers these under frontend/) ---
+node_modules/
+dist/
