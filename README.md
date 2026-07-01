@@ -6,7 +6,7 @@ Backend: **Java 21 / Spring Boot 4.1.0 / MongoDB Atlas**. Frontend: **React 19 /
 
 > This README documents the system as implemented in this repository, plus the SAP CPI integration flows (iFlows) that sit outside this codebase on the SAP Cloud Integration tenant. Sections describing iFlow internals reflect the documented message contract this backend was built against (see `docs/PO_CONTRACT.md`) and the iFlow structure as configured on the CPI tenant; the iFlow definitions themselves (Groovy scripts, mappings) are SAP CPI design-time artifacts, not files in this Git repository.
 
-**Demo Video:** [Watch the full walkthrough](https://github.com/debarchanasen28/SupplyChainManagement/releases/tag/v1.0.0) — a ~10 minute tour of all three System 1 profiles, the System 2 simulator, and live proof of the SAP CPI integration from the backend terminal logs. (Attached as a release asset rather than committed to the repo, since it's too large for git.)
+**Demo Video:** [Watch the full walkthrough](https://github.com/debarchanasen28/SupplyChainManagement/releases/tag/v1.0.0) — a tour of all three System 1 profiles, the System 2 simulator, and live proof of the SAP CPI integration from the backend terminal logs. (Attached as a release asset rather than committed to the repo, since it's too large for git.)
 
 **Full Report (PDF):** [docs/Project-Report.pdf](docs/Project-Report.pdf)
 
